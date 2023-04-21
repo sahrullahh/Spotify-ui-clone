@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="./dist/css/main.css"
+    />
+    <meta
+      name="description"
+      content="Spotify Web Player Clone Made by Mohammad Sahrullah"
+    />
+    <title>Spotify - Web UI Clone</title>
+  </head>
+  <body>
+    <div class="app">
+      <div class="initialize_app">
+        <div class="flex_hero">
+          <div class="sidebar">
+            <div class="in_sidebar">
+              <div class="head_sidebar">
+                <div class="logo">
+                  <svg
+                    viewBox="0 0 1134 340"
+                    class="fwTMCeAaUoWDj9WcQbgy"
+                  >
+                    <title>Spotify Clone</title>
+                    <path
+                      fill="#fff"
+                      d="M8 171c0 92 76 168 168 168s168-76 168-168S268 4 176 4 8 79 8 171zm230 78c-39-24-89-30-147-17-14 2-16-18-4-20 64-15 118-8 162 19 11 7 0 24-11 18zm17-45c-45-28-114-36-167-20-17 5-23-21-7-25 61-18 136-9 188 23 14 9 0 31-14 22zM80 133c-17 6-28-23-9-30 59-18 159-15 221 22 17 9 1 37-17 27-54-32-144-35-195-19zm379 91c-17 0-33-6-47-20-1 0-1 1-1 1l-16 19c-1 1-1 2 0 3 18 16 40 24 64 24 34 0 55-19 55-47 0-24-15-37-50-46-29-7-34-12-34-22s10-16 23-16 25 5 39 15c0 0 1 1 2 1s1-1 1-1l14-20c1-1 1-1 0-2-16-13-35-20-56-20-31 0-53 19-53 46 0 29 20 38 52 46 28 6 32 12 32 22 0 11-10 17-25 17zm95-77v-13c0-1-1-2-2-2h-26c-1 0-2 1-2 2v147c0 1 1 2 2 2h26c1 0 2-1 2-2v-46c10 11 21 16 36 16 27 0 54-21 54-61s-27-60-54-60c-15 0-26 5-36 17zm30 78c-18 0-31-15-31-35s13-34 31-34 30 14 30 34-12 35-30 35zm68-34c0 34 27 60 62 60s62-27 62-61-26-60-61-60-63 27-63 61zm30-1c0-20 13-34 32-34s33 15 33 35-13 34-32 34-33-15-33-35zm140-58v-29c0-1 0-2-1-2h-26c-1 0-2 1-2 2v29h-13c-1 0-2 1-2 2v22c0 1 1 2 2 2h13v58c0 23 11 35 34 35 9 0 18-2 25-6 1 0 1-1 1-2v-21c0-1 0-2-1-2h-2c-5 3-11 4-16 4-8 0-12-4-12-12v-54h30c1 0 2-1 2-2v-22c0-1-1-2-2-2h-30zm129-3c0-11 4-15 13-15 5 0 10 0 15 2h1s1-1 1-2V93c0-1 0-2-1-2-5-2-12-3-22-3-24 0-36 14-36 39v5h-13c-1 0-2 1-2 2v22c0 1 1 2 2 2h13v89c0 1 1 2 2 2h26c1 0 1-1 1-2v-89h25l37 89c-4 9-8 11-14 11-5 0-10-1-15-4h-1l-1 1-9 19c0 1 0 3 1 3 9 5 17 7 27 7 19 0 30-9 39-33l45-116v-2c0-1-1-1-2-1h-27c-1 0-1 1-1 2l-28 78-30-78c0-1-1-2-2-2h-44v-3zm-83 3c-1 0-2 1-2 2v113c0 1 1 2 2 2h26c1 0 1-1 1-2V134c0-1 0-2-1-2h-26zm-6-33c0 10 9 19 19 19s18-9 18-19-8-18-18-18-19 8-19 18zm245 69c10 0 19-8 19-18s-9-18-19-18-18 8-18 18 8 18 18 18zm0-34c9 0 17 7 17 16s-8 16-17 16-16-7-16-16 7-16 16-16zm4 18c3-1 5-3 5-6 0-4-4-6-8-6h-8v19h4v-6h4l4 6h5zm-3-9c2 0 4 1 4 3s-2 3-4 3h-4v-6h4z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <div class="menu_list">
+                <div class="menu_item">
+                  <button>
+                    <svg
+                      viewBox="0 0 8 9"
+                      class="icon_menu"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1 8H2.5V5H5.5V8H7V3.5L4 1.25L1 3.5V8ZM0 9V3L4 0L8 3V9H4.5V6H3.5V9H0Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+
+                    <label for="">Home</label>
+                  </button>
+                </div>
+                <div class="menu_item">
+                  <button>
+                    <svg
+                      class="icon_menu"
+                      viewBox="0 0 9 9"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M6.25072 5.50072H5.85572L5.71572 5.36572C6.02819 5.0027 6.25657 4.57511 6.3845 4.11353C6.51242 3.65195 6.53675 3.1678 6.45572 2.69572C6.22072 1.30572 5.06072 0.19572 3.66072 0.0257198C3.16853 -0.0365473 2.66861 0.0146056 2.19923 0.175264C1.72985 0.335923 1.30344 0.601829 0.952636 0.952636C0.601829 1.30344 0.335923 1.72985 0.175264 2.19923C0.0146056 2.66861 -0.0365473 3.16853 0.0257198 3.66072C0.19572 5.06072 1.30572 6.22072 2.69572 6.45572C3.1678 6.53675 3.65195 6.51242 4.11353 6.3845C4.57511 6.25657 5.0027 6.02819 5.36572 5.71572L5.50072 5.85572V6.25072L7.62572 8.37572C7.83072 8.58072 8.16572 8.58072 8.37072 8.37572C8.57572 8.17072 8.57572 7.83572 8.37072 7.63072L6.25072 5.50072ZM3.25072 5.50072C2.00572 5.50072 1.00072 4.49572 1.00072 3.25072C1.00072 2.00572 2.00572 1.00072 3.25072 1.00072C4.49572 1.00072 5.50072 2.00572 5.50072 3.25072C5.50072 4.49572 4.49572 5.50072 3.25072 5.50072Z"
+                        fill="black"
+                      />
+                    </svg>
+
+                    <label for="">Search</label>
+                  </button>
+                </div>
+                <div class="menu_item">
+                  <button>
+                    <svg
+                      class="icon_menu"
+                      viewBox="0 0 8 8"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M5 0.0536C5.06081 0.0184927 5.12979 1.02043e-05 5.2 1.02043e-05C5.27021 1.02043e-05 5.33919 0.0184927 5.4 0.0536L7.8 1.4392C7.86081 1.47431 7.9113 1.5248 7.94641 1.58561C7.98151 1.64641 8 1.71539 8 1.7856V7.6C8 7.70609 7.95786 7.80783 7.88284 7.88284C7.80783 7.95786 7.70609 8 7.6 8H5.2C5.09391 8 4.99217 7.95786 4.91716 7.88284C4.84214 7.80783 4.8 7.70609 4.8 7.6V0.4C4.8 0.329787 4.81849 0.260811 4.85359 0.200006C4.8887 0.1392 4.93919 0.0887065 5 0.0536ZM5.6 1.0928V7.2H7.2V2.0164L5.6 1.0928ZM0.4 8C0.293913 8 0.192172 7.95786 0.117157 7.88284C0.0421427 7.80783 0 7.70609 0 7.6V0.4C0 0.293913 0.0421427 0.192172 0.117157 0.117157C0.192172 0.0421427 0.293913 0 0.4 0C0.506087 0 0.607828 0.0421427 0.682843 0.117157C0.757857 0.192172 0.8 0.293913 0.8 0.4V7.6C0.8 7.70609 0.757857 7.80783 0.682843 7.88284C0.607828 7.95786 0.506087 8 0.4 8ZM2.8 8C2.69391 8 2.59217 7.95786 2.51716 7.88284C2.44214 7.80783 2.4 7.70609 2.4 7.6V0.4C2.4 0.293913 2.44214 0.192172 2.51716 0.117157C2.59217 0.0421427 2.69391 0 2.8 0C2.90609 0 3.00783 0.0421427 3.08284 0.117157C3.15786 0.192172 3.2 0.293913 3.2 0.4V7.6C3.2 7.70609 3.15786 7.80783 3.08284 7.88284C3.00783 7.95786 2.90609 8 2.8 8Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+
+                    <label for="">Your Library</label>
+                  </button>
+                </div>
+              </div>
+              <div class="menu_actions">
+                <div class="menu_item_action">
+                  <button>
+                    <div class="square-icon">
+                      <img
+                        src="./assets/icon/add.svg"
+                        alt=""
+                      />
+                    </div>
+                    <span>Create Playlist</span>
+                  </button>
+                </div>
+                <div class="menu_item_action">
+                  <button>
+                    <div class="square-icon gradient-spotify-favorites">
+                      <img
+                        src="./assets/icon/heart.svg"
+                        alt=""
+                      />
+                    </div>
+                    <span>Liked Songs</span>
+                  </button>
+                </div>
+              </div>
+              <div class="line"></div>
+              <div class="playlist">
+                <button class="active">Relaxing Music</button>
+                <button>Daily Played</button>
+                <button>Lofi Music</button>
+                <button>Islamic Vibes</button>
+                <button>Old song Vibes</button>
+                <button>Instrumental Soundtrack</button>
+                <button>Coding Vibes</button>
+                <button>Anime Opening</button>
+              </div>
+            </div>
+          </div>
+          <div class="section_wrapper">
+            <div class="header">
+              <header class="header_sticky">
+                <div class="header_wrapper">
+                  <div class="left_arrow_header">
+                    <button class="prev_playlits">
+                      <svg
+                        role="img"
+                        height="16"
+                        width="16"
+                        aria-hidden="true"
+                        class="Svg-sc-ytk21e-0 lmlFMn IYDlXmBmmUKHveMzIPCF"
+                        viewBox="0 0 16 16"
+                        data-encore-id="icon"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="M11.03.47a.75.75 0 0 1 0 1.06L4.56 8l6.47 6.47a.75.75 0 1 1-1.06 1.06L2.44 8 9.97.47a.75.75 0 0 1 1.06 0z"
+                        ></path>
+                      </svg>
+                    </button>
+                    <button class="next_playlist">
+                      <svg
+                        role="img"
+                        height="16"
+                        width="16"
+                        aria-hidden="true"
+                        class="Svg-sc-ytk21e-0 lmlFMn IYDlXmBmmUKHveMzIPCF"
+                        viewBox="0 0 16 16"
+                        data-encore-id="icon"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="M4.97.47a.75.75 0 0 0 0 1.06L11.44 8l-6.47 6.47a.75.75 0 1 0 1.06 1.06L13.56 8 6.03.47a.75.75 0 0 0-1.06 0z"
+                        ></path>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="account_spotify_islogged">
+                    <button class="box">
+                      <div class="avatar">
+                        <img
+                          src="./assets/img/me.jpg"
+                          alt=""
+                        />
+                        <div class="account_name">
+                          <h3>Moh Sahrullah</h3>
+                        </div>
+
+                        <div class="icon-angle-down">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 8"
+                          >
+                            <path
+                              fill="currentColor"
+                              d="M17 9.17a1 1 0 0 0-1.41 0L12 12.71L8.46 9.17a1 1 0 0 0-1.41 0a1 1 0 0 0 0 1.42l4.24 4.24a1 1 0 0 0 1.42 0L17 10.59a1 1 0 0 0 0-1.42Z"
+                            />
+                          </svg>
+                        </div>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </header>
+            </div>
+            <section class="header_song_playlist">
+              <br />
+              <div class="header_wrapper_playlist">
+                <div class="cover_playlist">
+                  <img
+                    src="./assets/img/stranger-thing-big-cover.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="heading_playlist">
+                  <p>Playlist</p>
+                  <h1>Relaxing Music</h1>
+                  <p>1 songs added, about 5 hour ago</p>
+                </div>
+              </div>
+            </section>
+            <div class="hero">
+              <div class="controlled_playlist">
+                <button class="play_button">
+                  <img
+                    src="./assets/icon/round-play-arrow.svg"
+                    alt=""
+                  />
+                </button>
+                <button>
+                  <svg
+                    role="img"
+                    height="32"
+                    width="32"
+                    aria-hidden="true"
+                    viewBox="0 0 24 24"
+                    data-encore-id="icon"
+                    class="Svg-sc-ytk21e-0 gQUQL"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M4.5 13.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm15 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm-7.5 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
+              <div class="container_table">
+                <table class="table_playlist_song">
+                  <thead>
+                    <th>#</th>
+                    <th>Title</th>
+                    <th>Album or podcast</th>
+                    <th>Release date</th>
+                    <th>Date added</th>
+                    <th>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="M12 20c4.4 0 8-3.6 8-8s-3.6-8-8-8s-8 3.6-8 8s3.6 8 8 8m0-18c5.5 0 10 4.5 10 10s-4.5 10-10 10S2 17.5 2 12S6.5 2 12 2m5 9.5V13h-6V7h1.5v4.5H17Z"
+                        />
+                      </svg>
+                    </th>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <div class="not">
+                          <svg
+                            role="img"
+                            height="24"
+                            width="24"
+                            aria-hidden="true"
+                            viewBox="0 0 24 24"
+                            data-encore-id="icon"
+                          >
+                            <path
+                              fill="currentColor"
+                              d="M10 2v9.5a2.75 2.75 0 1 1-2.75-2.75H8.5V2H10zm-1.5 8.25H7.25A1.25 1.25 0 1 0 8.5 11.5v-1.25z"
+                            ></path>
+                          </svg>
+                        </div>
+                        <div class="play">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            height="24"
+                            width="24"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              fill="currentColor"
+                              d="M8 6.82v10.36c0 .79.87 1.27 1.54.84l8.14-5.18a1 1 0 0 0 0-1.69L9.54 5.98A.998.998 0 0 0 8 6.82z"
+                            />
+                          </svg>
+                        </div>
+                      </td>
+                      <td>
+                        <div class="list-song">
+                          <div class="cover">
+                            <img
+                              src="./assets/img/stranger-thing-small-cover.jpg"
+                              alt=""
+                            />
+                          </div>
+                          <div class="content">
+                            <p class="title-song">
+                              Stranger Things (OneRepublic) - Alan Walker Remix
+                            </p>
+                            <p class="publisher">
+                              Kygo, OneRepublic, Alan Walker
+                            </p>
+                          </div>
+                        </div>
+                      </td>
+                      <td>Kid in love Remix</td>
+                      <td></td>
+                      <td>Dec 5,2021</td>
+                      <td>2.58</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="player">
+        <div class="player_wrapper">
+          <div class="player_artist">
+            <div class="player_detail_song">
+              <div class="cover_song">
+                <img
+                  src="./assets/img/stranger-thing-small-cover.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="song_played">
+                <h3 class="title">
+                  Stranger Things (OneRepublic) - Alan Walker Remix
+                </h3>
+                <p class="publisher">Kygo, OneRepublic, Alan Walker</p>
+              </div>
+            </div>
+          </div>
+          <div class="player_control">
+            <div class="wrapper-control">
+              <div class="controlled">
+                <button class="shuffle">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1em"
+                    height="1em"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M240.49 175.51a12 12 0 0 1 0 17l-24 24a12 12 0 0 1-17-17L203 196h-2.09a76.17 76.17 0 0 1-61.85-31.83l-41.68-58.39A52.1 52.1 0 0 0 55.06 84H32a12 12 0 0 1 0-24h23.06a76.17 76.17 0 0 1 61.85 31.83l41.71 58.39A52.1 52.1 0 0 0 200.94 172H203l-3.52-3.51a12 12 0 0 1 17-17Zm-95.62-72.62a12 12 0 0 0 16.93-1.13A52 52 0 0 1 200.94 84H203l-3.52 3.51a12 12 0 0 0 17 17l24-24a12 12 0 0 0 0-17l-24-24a12 12 0 0 0-17 17L203 60h-2.09a76 76 0 0 0-57.2 26a12 12 0 0 0 1.16 16.89Zm-33.74 50.22a12 12 0 0 0-16.93 1.13A52 52 0 0 1 55.06 172H32a12 12 0 0 0 0 24h23.06a76 76 0 0 0 57.2-26a12 12 0 0 0-1.13-16.89Z"
+                    />
+                  </svg>
+                </button>
+                <button class="previous">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1em"
+                    height="1em"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M6.5 18q-.425 0-.713-.288T5.5 17V7q0-.425.288-.713T6.5 6q.425 0 .713.288T7.5 7v10q0 .425-.288.713T6.5 18Zm10.45-1.025l-6.2-4.15q-.45-.3-.45-.825t.45-.825l6.2-4.15q.5-.325 1.025-.037t.525.887v8.25q0 .6-.525.9t-1.025-.05Z"
+                    />
+                  </svg>
+                </button>
+                <button class="play-and-pause">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1em"
+                    height="1em"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10s10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5l-6 4.5z"
+                    />
+                  </svg>
+                </button>
+                <button class="next">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1em"
+                    height="1em"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M17.5 18q-.425 0-.713-.288T16.5 17V7q0-.425.288-.713T17.5 6q.425 0 .713.288T18.5 7v10q0 .425-.288.713T17.5 18ZM7.05 16.975q-.5.35-1.025.05t-.525-.9v-8.25q0-.6.525-.888t1.025.038l6.2 4.15q.45.3.45.825t-.45.825l-6.2 4.15Z"
+                    />
+                  </svg>
+                </button>
+                <button class="repeat-or-once">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1em"
+                    height="1em"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M11 5.466V4H5a4 4 0 0 0-3.584 5.777a.5.5 0 1 1-.896.446A5 5 0 0 1 5 3h6V1.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192Zm3.81.086a.5.5 0 0 1 .67.225A5 5 0 0 1 11 13H5v1.466a.25.25 0 0 1-.41.192l-2.36-1.966a.25.25 0 0 1 0-.384l2.36-1.966a.25.25 0 0 1 .41.192V12h6a4 4 0 0 0 3.585-5.777a.5.5 0 0 1 .225-.67Z"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <div class="progressbar-seek">
+                <span class="seek-time">0.00</span>
+                <div class="progressbar-spotify"></div>
+                <span class="time-end">2.58</span>
+              </div>
+            </div>
+          </div>
+          <div class="player_accessibility">
+            <div class="content">
+              <button>
+                <svg
+                  role="img"
+                  height="16"
+                  width="16"
+                  aria-hidden="true"
+                  viewBox="0 0 16 16"
+                  data-encore-id="icon"
+                  class="Svg-sc-ytk21e-0 gQUQL"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M13.426 2.574a2.831 2.831 0 0 0-4.797 1.55l3.247 3.247a2.831 2.831 0 0 0 1.55-4.797zM10.5 8.118l-2.619-2.62A63303.13 63303.13 0 0 0 4.74 9.075L2.065 12.12a1.287 1.287 0 0 0 1.816 1.816l3.06-2.688 3.56-3.129zM7.12 4.094a4.331 4.331 0 1 1 4.786 4.786l-3.974 3.493-3.06 2.689a2.787 2.787 0 0 1-3.933-3.933l2.676-3.045 3.505-3.99z"
+                  ></path>
+                </svg>
+              </button>
+              <button>
+                <svg
+                  role="img"
+                  height="16"
+                  width="16"
+                  aria-hidden="true"
+                  viewBox="0 0 16 16"
+                  data-encore-id="icon"
+                  class="Svg-sc-ytk21e-0 gQUQL"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M15 15H1v-1.5h14V15zm0-4.5H1V9h14v1.5zm-14-7A2.5 2.5 0 0 1 3.5 1h9a2.5 2.5 0 0 1 0 5h-9A2.5 2.5 0 0 1 1 3.5zm2.5-1a1 1 0 0 0 0 2h9a1 1 0 1 0 0-2h-9z"
+                  ></path>
+                </svg>
+              </button>
+              <button>
+                <svg
+                  role="presentation"
+                  height="16"
+                  width="16"
+                  aria-hidden="true"
+                  class="Svg-sc-ytk21e-0 gQUQL"
+                  viewBox="0 0 16 16"
+                  data-encore-id="icon"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M6 2.75C6 1.784 6.784 1 7.75 1h6.5c.966 0 1.75.784 1.75 1.75v10.5A1.75 1.75 0 0 1 14.25 15h-6.5A1.75 1.75 0 0 1 6 13.25V2.75zm1.75-.25a.25.25 0 0 0-.25.25v10.5c0 .138.112.25.25.25h6.5a.25.25 0 0 0 .25-.25V2.75a.25.25 0 0 0-.25-.25h-6.5zm-6 0a.25.25 0 0 0-.25.25v6.5c0 .138.112.25.25.25H4V11H1.75A1.75 1.75 0 0 1 0 9.25v-6.5C0 1.784.784 1 1.75 1H4v1.5H1.75zM4 15H2v-1.5h2V15z"
+                  ></path>
+                  <path
+                    fill="currentColor"
+                    d="M13 10a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm-1-5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"
+                  ></path>
+                </svg>
+              </button>
+              <button>
+                <svg
+                  role="presentation"
+                  height="16"
+                  width="16"
+                  aria-hidden="true"
+                  aria-label="Volume high"
+                  id="volume-icon"
+                  viewBox="0 0 16 16"
+                  data-encore-id="icon"
+                  class="Svg-sc-ytk21e-0 gQUQL"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M9.741.85a.75.75 0 0 1 .375.65v13a.75.75 0 0 1-1.125.65l-6.925-4a3.642 3.642 0 0 1-1.33-4.967 3.639 3.639 0 0 1 1.33-1.332l6.925-4a.75.75 0 0 1 .75 0zm-6.924 5.3a2.139 2.139 0 0 0 0 3.7l5.8 3.35V2.8l-5.8 3.35zm8.683 4.29V5.56a2.75 2.75 0 0 1 0 4.88z"
+                  ></path>
+                  <path
+                    fill="currentColor"
+                    d="M11.5 13.614a5.752 5.752 0 0 0 0-11.228v1.55a4.252 4.252 0 0 1 0 8.127v1.55z"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+            <div class="volume">
+              <div class="vol-bar"><div class="bar"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

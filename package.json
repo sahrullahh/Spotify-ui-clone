@@ -1,0 +1,13 @@
+{
+  "name": "spotify-clone",
+  "version": "1.0.0",
+  "description": "unofficialy design spotify clone",
+  "main": "index.js",
+  "scripts": {
+    "watch": "sass ./src/assets/scss/main.scss ./src/dist/css/main.css --watch",
+    "make-s": "sass ./src/assets/scss/main.scss ./src/dist/css/main.css"
+  },
+  "keywords": [],
+  "author": "Mohammad Sahrullah",
+  "license": "ISC"
+}
